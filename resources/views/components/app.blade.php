@@ -14,7 +14,7 @@
     <!-- CSS & JS -->
     @vite('resources/css/app.css')
 
-    <title>Summa College Het Luik</title>
+    <title>{{ $title }}</title>
 </head>
 
 <body class="font-inter">
