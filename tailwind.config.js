@@ -40,9 +40,6 @@ export default {
 
             xl: "1280px",
             // => @media (min-width: 1280px) { ... }
-
-            "2xl": "1361px",
-            // => @media (min-width: 1361px) { ... }
         },
     },
     plugins: [],
