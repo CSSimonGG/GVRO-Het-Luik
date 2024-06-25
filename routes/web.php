@@ -1,14 +1,15 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\SandwichController;
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', [SandwichController::class, 'index']);
 
 Route::get('/gerechten', function () {
-    return view('home');
+    return redirect('/');
 });
+
+Route::get('/gerecht/{id}', [SandwichController::class, 'show'])->name('sandwich.show');
 
 Route::get('/winkelwagen', function () {
     return view('winkelwagen');
