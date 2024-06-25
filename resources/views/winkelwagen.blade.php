@@ -2,8 +2,8 @@
     <x-slot:title>
         Winkelwagen | Summa College Het Luik
     </x-slot:title>
-    <div class="bg-white h-screen 2xl:mx-[10%]">
-        <div class="text-white text-xl m-4 bg-darkblue w-[50%] h-auto p-4 space-y-4 pb-20">
+    <div class="bg-white h-screen 2xl:mx-[10%] p-4">
+        <div class="text-white text-xl bg-darkblue w-[50%] h-auto p-4 space-y-4 pb-20">
             <div>
                 <h2>Naam</h2>
                 <input type="text" class="text-black p-1 rounded-lg w-full">

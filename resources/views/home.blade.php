@@ -3,7 +3,7 @@
         Summa College Het Luik
     </x-slot:title>
     <div class="bg-white max-xl:min-h-screen xl:min-h-[1050px] 2xl:mx-[10%]">
-        <div class="m-4 xl:min-w-[864px] xl:w-[60%]">
+        <div class="p-4 xl:min-w-[880px] xl:w-[60%]">
             @foreach ($sandwiches as $sandwich)
                 <div
                     class="max-xl:lg:w-[600px] xl:w-[49%] max-xl:lg:h-[230px] xl:h-[190px] mb-4 border-2 border-black flex p-2 @if ($sandwich->id % 2 === 0) xl:float-right @else xl:float-left @endif">
