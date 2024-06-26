@@ -15,7 +15,7 @@
             </div>
 
         </div>
-        <div class="text-white text-xl bg-darkblue lg:w-[50%] h-auto p-4 space-y-4 pb-20">
+        <div class="text-white text-xl bg-darkblue max-2xl:lg:w-[50%] xl:w-[70%] h-auto p-4 space-y-4 pb-20">
             <div>
                 <h2>Naam</h2>
                 <input type="text" class="text-black p-1 rounded-lg w-full">
@@ -45,7 +45,7 @@
             </div>
             <a href="/betalen">
                 <div
-                    class="float-right border w-fit flex space-x-2 bg-darkblue py-2 px-8 rounded-full text-white font-bold hover:shadow-2xl">
+                    class="xs:float-right max-xs:text-sm max-xs:mt-8 border w-fit flex space-x-2 bg-darkblue py-2 px-8 rounded-full text-white font-bold hover:shadow-2xl">
                     <p>Bestelling plaatsen</p>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 20 20"
                         fill="none">
