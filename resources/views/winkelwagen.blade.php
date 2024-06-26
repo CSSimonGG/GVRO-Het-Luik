@@ -3,7 +3,19 @@
         Winkelwagen | Summa College Het Luik
     </x-slot:title>
     <div class="bg-white h-screen 2xl:mx-[10%] p-4">
-        <div class="text-white text-xl bg-darkblue w-[50%] h-auto p-4 space-y-4 pb-20">
+        <div class="lg:absolute lg:top-[108px] xl:left-[70%] max-xl:lg:left-[664px] max-lg:mb-4">
+            <div class="bg-darkblue lg:w-[328px] min-h-[200px] text-xl text-white relative">
+                <h2 class="font-bold text-center py-4">Je bestelling</h2>
+                <hr class="absolute left-0 right-0 border-b border-white">
+                <br>
+                <div class="mx-4 border-t-2">
+                    <h3 class="font-bold mt-2">Totaal</h3>
+                    <p>€0.00</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="text-white text-xl bg-darkblue lg:w-[50%] h-auto p-4 space-y-4 pb-20">
             <div>
                 <h2>Naam</h2>
                 <input type="text" class="text-black p-1 rounded-lg w-full">
@@ -31,9 +43,9 @@
                 <h2 class="font-bold">Pick up Point</h2>
                 <p>Het Luik</p>
             </div>
-            <a href="/betaald">
+            <a href="/betalen">
                 <div
-                    class="float-right border rounded-full w-fit flex space-x-2 bg-darkblue py-2 px-8 rounded-full text-white font-bold hover:shadow-2xl">
+                    class="float-right border w-fit flex space-x-2 bg-darkblue py-2 px-8 rounded-full text-white font-bold hover:shadow-2xl">
                     <p>Bestelling plaatsen</p>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 20 20"
                         fill="none">
@@ -47,9 +59,6 @@
                     </svg>
                 </div>
             </a>
-        </div>
-        <div class="max-lg:hidden absolute top-[108px] xl:left-[70%] max-xl:lg:left-[664px]">
-            <x-bestelling></x-bestelling>
         </div>
     </div>
 </x-app>
